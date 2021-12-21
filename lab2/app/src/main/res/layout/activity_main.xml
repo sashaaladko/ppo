@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/reg_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reg_number"/>
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/author"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/name"/>
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/year"/>
+
+        <TextView
+            android:id="@+id/publish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/published"/>
+
+        <TextView
+            android:id="@+id/num_of_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/num_of_page"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="496dp">
+
+        <GridView
+            android:id="@+id/booksGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="35dp"></GridView>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="250dp">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="151dp"
+            android:layout_height="58dp"
+            android:layout_x="125dp"
+            android:layout_y="675dp"
+            android:text="@string/add"/>
+
+        <Button
+            android:id="@+id/load"
+            android:layout_width="151dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="50dp"
+            android:layout_x="125dp"
+            android:layout_y="675dp"
+            android:text="@string/load" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="151dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="100dp"
+            android:layout_x="125dp"
+            android:layout_y="675dp"
+            android:text="@string/save" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

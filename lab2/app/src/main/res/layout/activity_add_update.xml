@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUpdateActivity"
+    tools:ignore="Deprecated">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_x="15dp"
+        android:layout_y="130dp"
+        android:text="@string/reg_number"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/reg_num"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="122dp"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_x="14dp"
+        android:layout_y="173dp"
+        android:text="@string/author"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/author"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="168dp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_x="12dp"
+        android:layout_y="215dp"
+        android:text="@string/name"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="214dp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_x="11dp"
+        android:layout_y="264dp"
+        android:text="@string/year"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="262dp"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_x="12dp"
+        android:layout_y="313dp"
+        android:text="@string/published"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/publish"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="309dp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_x="13dp"
+        android:layout_y="360dp"
+        android:text="@string/num_of_page"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/num_of_page"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="355dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="151dp"
+        android:layout_height="58dp"
+        android:layout_x="126dp"
+        android:layout_y="507dp"
+        android:text="@string/refresh" />
+
+
+</AbsoluteLayout>
