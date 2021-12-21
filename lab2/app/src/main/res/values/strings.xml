@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BookManager</string>
+    <string name="reg_number">Reg. number: </string>
+    <string name="author">Author: </string>
+    <string name="name">Name: </string>
+    <string name="year">Publication date: </string>
+    <string name="published">Publishing house: </string>
+    <string name="num_of_page">Number of pages: </string>
+    <string name="refresh">Refresh</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">delete</string>
+    <string name="load">Load from file</string>
+    <string name="save">Save to file</string>
+</resources>
