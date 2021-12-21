@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="9">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_weight="4"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/nick_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nickname"
+        android:layout_weight="4"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="score"
+        android:layout_weight="1"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/relative"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_alignParentRight="true"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:id="@+id/add"></Button>
+
+    <EditText
+        android:inputType="text"
+        android:layout_width="170dp"
+        android:layout_alignRight="@+id/add"
+        android:id="@+id/nickname_text"
+        android:layout_marginRight="100dp"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:inputType="text"
+        android:layout_width="170dp"
+        android:layout_alignRight="@+id/add"
+        android:id="@+id/name_text"
+        android:layout_marginRight="300dp"
+        android:layout_height="50dp"/>
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:verticalSpacing="35dp"></ListView>
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:background="#0000"
+        android:verticalSpacing="35dp"></Button>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort By" />
+
+
+
+</RelativeLayout>
